@@ -1,0 +1,15 @@
+{
+  "name": "Craftstore",
+  "version": "0.0.0",
+  "description": "Loja de naves",
+  "main": "server.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "Luiz Panariello",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.10.2",
+    "body-parser": "~1.9.2"
+  }
+}
