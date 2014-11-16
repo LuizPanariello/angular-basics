@@ -1,17 +1,30 @@
 {
-  "name": "Craftstore",
+  "name": "App",
   "version": "0.0.0",
-  "description": "Loja de naves",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.9.2",
+    "express": "~4.10.2",
+    "mongoose": "~3.8.19"
+  },
+  "devDependencies": {
+    "karma": "~0.12.25",
+    "mocha": "~2.0.1",
+    "karma-mocha": "~0.1.9",
+    "karma-chrome-launcher": "~0.1.5"
+  },
   "scripts": {
-    "test": "none"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuizPanariello/angular-basics.git"
   },
   "author": "Luiz Panariello",
   "license": "BSD-2-Clause",
-  "dependencies": {
-    "express": "~4.10.2",
-    "body-parser": "~1.9.2",
-    "mongoose": "~3.8.19",
-    "node-uuid": "~1.4.1"
+  "bugs": {
+    "url": "https://github.com/LuizPanariello/angular-basics/issues"
   }
 }

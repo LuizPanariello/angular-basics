@@ -10,5 +10,5 @@ app.config(function($routeProvider, $locationProvider) {
 });
 
 app.controller('storeFrontController',['$scope', function($scope){
-
+	
 }]);
