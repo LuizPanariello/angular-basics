@@ -1,26 +1,22 @@
 // Karma configuration
-// Generated on Sun Nov 16 2014 14:51:14 GMT-0200 (Horário brasileiro de verão)
+// Generated on Sun Nov 16 2014 16:30:18 GMT-0200 (Horário brasileiro de verão)
 
 module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '/',
+    basePath: '',
 
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
     files: [
-        'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.2/angular.js',
-        'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.2/angular-route.js',
-        'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.2/angular-animate.js',
-        'public/vendors/*.js',
-        'public/js/*.js',
-        'tests/*.js'
+      'public/js/*.js',
+      'tests/*.js'
     ],
 
 

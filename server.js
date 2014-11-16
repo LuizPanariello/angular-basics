@@ -8,7 +8,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
-
 //Models
 var shipSchema = mongoose.Schema({
 	name: String,
